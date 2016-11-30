@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
-  
-  resource :articles
-  
-  root 'welcome#index'
 
+  resources :articles
+  root 'welcome#index'
 
 end
